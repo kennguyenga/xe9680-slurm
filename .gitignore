@@ -1,0 +1,17 @@
+# Never commit real secrets
+*.key
+munge.key
+slurmdbd.conf.local
+*.pem
+secrets/
+
+# Logs and local state
+*.log
+slurmtest.*/
+slurm-*.out
+*_*.out
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
